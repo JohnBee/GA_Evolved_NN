@@ -17,6 +17,14 @@ Using an initial population of 50, over 100 generations the final weights easily
 [10.001538363798826, -10.004689894474023]
 ```
 
+## How to run the example code
+```commandline
+python genetic_algorithm.py 
+```
+
+These values can easily be adapted to Classification and other Regression problems, by changing the activation function within
+the Neural Network definition.
+
 ## Requirements
  - Python >= 3.6
  - NumPy
