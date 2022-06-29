@@ -4,7 +4,8 @@ Using Genetic Algorithms to Evolve a Neural Network.
 ## About
 Rather than using Backpropagation to update/optimise the weights of a 
 Neural Network, here a Genetic Algorithm optimises the weights. Optimising Neural Networks usually
-requires a training set, instead here using a fitness function. 
+requires a training set, instead here using a fitness function. This is similar to the idea behind NEAT except here the
+topology of the Neural Network is unchanged.
 
 Within the Code an example of attempting to produce [10, -10] using an input of 0.1 is given.
 The Network structure is [1, 10, 10, 2]. Input layer of size one, Two hidden layers of ten and
